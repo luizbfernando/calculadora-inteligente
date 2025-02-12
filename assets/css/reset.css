@@ -1,0 +1,20 @@
+body {
+    background-color: var(--fundo-Principal);
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--btn-primario);
+    width: 50%;
+    margin: auto;
+}
+
+header h1 {
+    color: var(--mindaro);
+}
