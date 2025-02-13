@@ -3,25 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/output.css">
     <link rel="stylesheet" href="/assets/css/index.css">
     <title>Calculadora inteligente</title>
 </head>
 <body>
+     <main class="flex justify-center mt-5">
+         <div class="flex justify-center flex-col w-[268] gap-5 ">
+            <div class="flex flex-col justify-center ">
+                <input type="text" placeholder="Digite..." class="ring-0 border border-black rounded-lg p-2">
+            </div>
 
-     <main>
-        <table>
-            <caption>
-                Operações facilitadas
-            </caption>
-            <thead>
-                <tr>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                </tr>
-            </thead>
-        </table>
+            <div class="grid grid-cols-4 gap-1 grid-flow-row text-center p-1 border-solid rounded-lg border-black border bg-slate-100">
+                <button class="size-16 p-2 btn-calculadora">7</button>
+                <button class="size-16 p-2 btn-calculadora">8</button>
+                <button class="size-16 p-2 btn-calculadora">9</button>
+                <button class="size-16 p-2 btn-calculadora">/</button>
+                <button class="size-16 p-2 btn-calculadora">4</button>
+                <button class="size-16 p-2 btn-calculadora">5</button>
+                <button class="size-16 p-2 btn-calculadora">6</button>
+                <button class="size-16 p-2 btn-calculadora">*</button>
+                <button class="size-16 p-2 btn-calculadora">1</button>
+                <button class="size-16 p-2 btn-calculadora">2</button>
+                <button class="size-16 p-2 btn-calculadora">3</button>
+                <button class="size-16 p-2 btn-calculadora">.</button>
+                <button class="size-16 p-2  btn-calculadora">0</button>
+                <button class="size-16 p-2 btn-calculadora">-</button>
+                <button class="size-16 p-2 btn-calculadora">+</button>
+                <button class="size-16 p-2  btn-calculadora">Enter</button>
+            </div>
+        </div>
     </main>
-</body>
+</body> 
 </html>
